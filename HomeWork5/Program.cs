@@ -57,8 +57,7 @@ namespace HomeWork5
 
             Console.WriteLine("Задание 1:");
             int dimension = Input("Введите размерность массива: ");
-            int[] array = new int[dimension];
-            array = ArrayThreeDigitRandom(dimension);
+            int[] array = ArrayThreeDigitRandom(dimension);
             ArrayWrite(array, dimension);
             int count = CountEvenNumbers(array, dimension);
             Console.WriteLine("Колличество четных чисел в массиве = " + count);
@@ -110,7 +109,6 @@ namespace HomeWork5
             ArrayWrite(array, dimension);
             double difference = Difference(array, dimension);
             Console.WriteLine("Разница между максимальным и минимальным элементами массива = " + difference);
-
 
             Console.ReadKey();
         }
